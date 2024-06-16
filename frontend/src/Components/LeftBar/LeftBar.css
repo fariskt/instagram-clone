@@ -1,0 +1,32 @@
+.leftbar-container {
+  width: 250px;
+  border-right: 1px solid rgb(203, 203, 203);
+  padding: 15px;
+  position: fixed;
+  height: 100vh;
+}
+.insta-logo {
+  height: 90px;
+  width: 130px;
+  margin: -5px;
+}
+.leftbar-section{
+    display: flex;
+    flex-direction: column;
+}
+.leftbar-section div{
+    display: flex;
+    gap: 20px;
+    padding: 15px 10px;
+    font-size: 24px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.leftbar-section div:hover{
+  background-color: rgb(232, 232, 232);
+}
+.leftbar-section div h4{
+    font-weight: 300;
+    font-size: 16px;
+    padding: 3px 0;
+}

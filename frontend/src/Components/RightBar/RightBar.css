@@ -1,0 +1,43 @@
+.rightbar-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+  padding: 20px;
+}
+.profile-details {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+.profile-switch {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.suggested-id,
+.suggested-profile {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+.user {
+  gap: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.profile-switch img,
+.suggested-id img {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.switch-account h5, .follow-btn h5{
+    color: rgb(56, 150, 223);
+    font-size: 13px;
+    cursor: pointer;
+}
